@@ -1,17 +1,4 @@
 {
-	// Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and 
-	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
-	// same ids are connected.
-	// Example:
-	// "Print to console": {
-	// 	"prefix": "log",
-	// 	"body": [
-	// 		"console.log('$1');",
-	// 		"$2"
-	// 	],
-	// 	"description": "Log output to console"
-	// }
 	"html5-boilerplate": {
 		"prefix": "html5-boilerplate",
 		"body": [
@@ -46,33 +33,36 @@
 			"",
 			"\t<!-- Relative Links -->",
 			"\t<link rel=\"stylesheet\" href=\"css/styles.css\">",
-			"\t<!-- <link rel=\"icon\" href=\"/favicon.ico\"> -->",
-			"\t<!-- <link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\"> -->",
-			"\t<!-- <link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\"> -->",
+			"\t<!-- <link rel=\"icon\" href=\"images/favicon.ico\"> -->",
+			"\t<!-- <link rel=\"icon\" href=\"images/favicon.svg\" type=\"image/svg+xml\"> -->",
+			"\t<!-- <link rel=\"apple-touch-icon\" href=\"images/apple-touch-icon.png\"> -->",
 			"</head>",
 			"",
 			"<body>",
-			"\t<nav class=\"headering\">",
+			"\t<nav class=\"navering\">",
 			"\t\t<ul>",
 			"\t\t\t<li><a href=\"/\">Home</a></li>",
 			"\t\t</ul>",
 			"\t</nav>",
 			"\t<!--[if lt IE 7]>",
-			"\t\t<p class=\"browsehappy\">You are using an <strong>outdated</strong> browser. Please <a href=\"#\">upgrade your browser</a> to improve your experience.</p>",
+			"\t\t<p class=\"outdated\">You are using an <strong>outdated</strong> browser. Please <a href=\"#\">upgrade your browser</a> to improve your experience.</p>",
 			"\t<![endif]-->",
 			"\t<div class=\"container\">",
-			"\t\t<h1>$6</h1>",
-			"\t\t<div class=\"main\">",
+			"\t\t<header class=\"headering\">",
+			"\t\t\t<h1>$6</h1>",
+			"\t\t</header>",
+			"\t\t<main class=\"mainering\">",
 			"\t\t\t<p>$7</p>",
-			"\t\t</div>",
+			"\t\t</main>",
 			"\t</div>",
 			"\t<footer class=\"footering\">",
 			"\t\t<ul>",
 			"\t\t\t<li><a href=\"/\">RyanMcSloMo</a></li>",
 			"\t\t</ul>",
 			"\t</footer>",
-			"<!-- \t<script src=\"js/scripts.js\"></script> -->",
+			"\t<!-- <script src=\"js/scripts.js\"></script> -->",
 			"</body>",
+			"",
 			"</html>"
 		],
 		"description": "HTML boilerplate"
