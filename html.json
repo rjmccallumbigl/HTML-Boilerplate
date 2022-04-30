@@ -1,0 +1,80 @@
+{
+	// Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"html5-boilerplate": {
+		"prefix": "html5-boilerplate",
+		"body": [
+			"<!DOCTYPE html>",
+			"<!-- IE Check -->",
+			"<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->",
+			"<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\"> <![endif]-->",
+			"<!--[if IE 8]>         <html class=\"no-js lt-ie9\"> <![endif]-->",
+			"<!--[if gt IE 8]>      <html class=\"no-js\"> <![endif]-->",
+			"<html lang=\"en\">",
+			"",
+			"<head>",
+			"\t<!-- Default Meta Properties -->",
+			"\t<meta charset=\"utf-8\">",
+			"\t<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">",
+			"\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+			"\t<meta name=\"color-scheme\" content=\"dark light\">",
+			"\t<meta name=\"description\" content=\"\">",
+			"\t<meta name=\"author\" content=\"RyanMcSloMo\">",
+			"",
+			"\t<!-- Title -->",
+			"\t<title>$1</title>",
+			"",
+			"\t<!-- https://ogp.me -->",
+			"\t<meta property=\"og:site_name\" content=\"$2\">",
+			"\t<meta property=\"og:title\" content=\"$3\">",
+			"\t<meta property=\"og:url\" content=\"https://$4.com/\">",
+			"\t<meta property=\"og:description\" content=\"$5\">",
+			"\t<meta property=\"og:type\" content=\"website\">",
+			"\t<meta property=\"og:locale\" content=\"en_US\">",
+			"\t<!-- <meta property=\"og:image\" content=\"image.png\"> -->",
+			"",
+			"\t<!-- Relative Links -->",
+			"\t<link rel=\"stylesheet\" href=\"css/styles.css\">",
+			"\t<!-- <link rel=\"icon\" href=\"/favicon.ico\"> -->",
+			"\t<!-- <link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\"> -->",
+			"\t<!-- <link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\"> -->",
+			"</head>",
+			"",
+			"<body>",
+			"\t<nav class=\"headering\">",
+			"\t\t<ul>",
+			"\t\t\t<li><a href=\"/\">Home</a></li>",
+			"\t\t</ul>",
+			"\t</nav>",
+			"\t<!--[if lt IE 7]>",
+			"\t\t<p class=\"browsehappy\">You are using an <strong>outdated</strong> browser. Please <a href=\"#\">upgrade your browser</a> to improve your experience.</p>",
+			"\t<![endif]-->",
+			"\t<div class=\"container\">",
+			"\t\t<h1>$6</h1>",
+			"\t\t<div class=\"main\">",
+			"\t\t\t<p>$7</p>",
+			"\t\t</div>",
+			"\t</div>",
+			"\t<footer class=\"footering\">",
+			"\t\t<ul>",
+			"\t\t\t<li><a href=\"/\">RyanMcSloMo</a></li>",
+			"\t\t</ul>",
+			"\t</footer>",
+			"<!-- \t<script src=\"js/scripts.js\"></script> -->",
+			"</body>",
+			"</html>"
+		],
+		"description": "HTML boilerplate"
+	}
+}
