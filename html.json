@@ -29,7 +29,7 @@
 			"\t<meta property=\"og:description\" content=\"${3:Description}\">",
 			"\t<meta property=\"og:type\" content=\"website\">",
 			"\t<meta property=\"og:locale\" content=\"en_US\">",
-			"\t<!-- <meta property=\"og:image\" content=\"image.png\"> -->",
+			"\t<!-- <meta property=\"og:image\" content=\"images/image.png\"> -->",
 			"",
 			"\t<!-- Relative Links -->",
 			"\t<link rel=\"stylesheet\" href=\"css/styles.css\">",
